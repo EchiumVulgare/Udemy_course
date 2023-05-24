@@ -73,3 +73,27 @@
 // ****
 // *****
 // ******
+
+let result = '';
+
+for (let i = 0; i <= 6; i++) {
+  for (let j = 0; j < i; j++) {
+    result += '*';
+  }
+
+  result += '\n';
+}
+
+console.log(result);
+
+let result2 = '';
+
+for (let i = 0; i <= 6; i++) {
+  for (let j = 0; j < i; j++) {
+    result2 += '*';
+  }
+
+  result2 += '\n';
+}
+
+console.log(result2);
